@@ -1,1 +1,146 @@
-index
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mariatoon</title>
+  <meta name="description" content="mariatoon.my.id adalah website hiburan">
+  <meta property="og:title" content="Mariatoon">
+  <meta property="og:description" content="mariatoon.my.id adalah website hiburan">
+  <meta property="og:url" content="https://mariatoon.my.id">
+  <meta property="og:image" content="https://mariatoon.my.id/image.jpg">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://mariatoon.my.id">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      line-height: 1.5;
+      color: #1f2937;
+      background: #fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #0f4c81;
+      color: #fff;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      margin-left: 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    nav a:hover, nav a:focus {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    ol {
+      padding-left: 1.2em;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 1.25rem;
+      list-style: decimal outside;
+    }
+    .item-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 0.75em 1em;
+      border-radius: 8px;
+      transition: background .2s, box-shadow .2s;
+      border: 1px solid #e2e8f0;
+    }
+    .item-link:hover, .item-link:focus-visible {
+      background: #f5f9ff;
+      box-shadow: 0 4px 12px rgba(15,76,129,0.08);
+      outline: none;
+    }
+    .content h3 {
+      margin: 0 0 6px;
+      font-size: 1.2rem;
+    }
+    .content p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #475569;
+    }
+    footer {
+      background: #f3f4f6;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    .links {
+      width: 100%;
+      text-align: center;
+    }
+    .links a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/" class="logo" aria-label="Mariatoon">Mariatoon</a>
+    <nav aria-label="Navigasi utama"></nav>
+  </header>
+
+  <main>
+    <ol>
+      <li>
+        <a href="http://mariatoon.my.id/" class="item-link" aria-label="Detail Nasi Goreng">
+          <div class="content">
+            <h3>Nasi Goreng</h3>
+            <p>Makanan khas Indonesia yang dimasak dengan bumbu sederhana dan sering ditambahkan telur, ayam, atau udang.</p>
+          </div>
+        </a>
+      </li>
+    </ol>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+        <div class="links"><a href="/blog">Blog</a> | <a href="/archive">Arsip</a> | <a href="/privacy">Kebijakan Privasi</a></div>
+    </div>
+    <div class="small" style="text-align:center; margin-top:1rem;">
+      © 2025 Mariatoon
+    </div>
+  </footer>
+</body>
+</html>
